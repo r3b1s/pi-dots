@@ -1,0 +1,3 @@
+Some [Pi](https://pi.dev) agent configuration profiles. You can swap between them by defining the `PI_CODING_AGENT_DIR` environment variable.
+
+These profiles are intended exclusively for use with the [Pi](https://pi.dev) harness, not it's derivatives/forks (though they might work with them). For instance, `omp` (oh-my-pi) inherits many of the same environment variables as `pi` does. `omp` will pollute `pi`-specific configuration & session history if launched with a `PI_CODING_AGENT_DIR` definition intended for `pi` alone. Make sure to only use `omp` in its own isolated shell environment if this is not desired. This may or may not be true for other `pi`-derivatives.

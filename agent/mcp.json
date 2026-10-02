@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "donsetch": {
+      "command": "donsetch",
+      "args": [
+        "mcp",
+        "--supervised"
+      ],
+      "directTools": false,
+      "enabled": false
+    },
+    "agent-browser": {
+      "command": "agent-browser",
+      "args": [
+        "mcp",
+        "--tools",
+        "all"
+      ],
+      "directTools": false,
+      "enabled": false
+    }
+  }
+}
