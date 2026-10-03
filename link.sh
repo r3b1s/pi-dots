@@ -18,6 +18,6 @@ pi1="${DOTS_PI_DIR}/agent_ctf"
 
 
 # LINK
-ln -s ${settingsfile} ${pi0}/settings.json # settings0 -> default pi
-ln -s ${settingsfile} ${pi1}/settings.json # settings0 -> ctf pi
+ln -s ${settings0} ${pi0}/settings.json # settings0 -> default pi
+ln -s ${settings0} ${pi1}/settings.json # settings0 -> ctf pi
 
