@@ -17,3 +17,7 @@ commandcode-models.*
 omarchy
 omarchy-system.json
 diagnose-crash
+
+
+# bin folder?
+bin
