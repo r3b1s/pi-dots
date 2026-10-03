@@ -21,3 +21,7 @@ diagnose-crash
 
 # bin folder?
 bin
+
+# ignore profile-specific settings.json in certain cases
+agent/settings.json
+agent_ctf/settings.json
