@@ -7,7 +7,7 @@
         "--supervised"
       ],
       "directTools": false,
-      "enabled": false
+      "enabled": true
     },
     "agent-browser": {
       "command": "agent-browser",

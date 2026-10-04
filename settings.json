@@ -1,5 +1,5 @@
 {
-  "lastChangelogVersion": "1.0.1",
+  "lastChangelogVersion": "1.0.2",
   "theme": "system",
   "enableInstallTelemetry": false,
   "markdown": {
@@ -7,7 +7,6 @@
   },
   "packages": [
     "npm:pi-commandcode-provider",
-    "npm:donsetch",
     "npm:@r3b1s/pi-vim-stash"
   ],
   "enabledModels": [
